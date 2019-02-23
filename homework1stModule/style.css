@@ -1,0 +1,10 @@
+span{
+    display: block;
+}
+ul {
+    text-decoration: underline;
+    color: blue;
+}
+*{
+    cursor: wait;
+}
