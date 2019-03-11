@@ -1,0 +1,71 @@
+
+
+/* по какой-то причине у меня padding(margin)left/right:auto;не выравнивают контент по середине.Пришлос высчитывать все через фотошоп в процентах */
+main{
+    padding-left:12.5%;
+}
+/* выравнивания статей и добавление им размера */
+article{
+    display: inline-block;
+    width: 35%;
+    padding-right: 5%;
+
+}
+/* расширение всех изображений по размеру статей */
+img{
+    width:100%;
+}
+.fourArticles{
+    padding-bottom: 6.8%;
+}
+/* расстояние до кнопки */
+.lastArticles{
+    padding-bottom: 2.6%;
+}
+button{
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid black;
+    width: 13.6%;
+    /* в высоте у меня возникают проблема с указанием размеров процентом */
+    height: 70px;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 38%;
+}
+
+
+span{
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* отступ текста */
+h2,span,p{
+    padding-top:7.2%;
+}
+/* редактирование навигации(auto не выравнивает по центру) */
+nav{
+    display:inline-block;
+    width: 75%;
+    margin-right: 12.5%;
+    margin-left:12.5%;
+    padding:4.5% 13.8% 5% 13.8%;
+}
+a{
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration:none;
+    color: rgb(155, 164, 187);
+    font-size: 20px;
+    font-weight: 100;
+    width: 4%;
+}
+.threeLinks{
+    padding-right: 10.5%;
+}
+a:hover,button:hover{
+    color: rgb(0, 195, 255);
+}
+
+
+
