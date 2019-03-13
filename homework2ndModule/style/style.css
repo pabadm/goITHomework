@@ -39,10 +39,20 @@ button{
 span{
     display: block;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: rgba(211, 210, 210, 0.644);
 }
 /* отступ текста */
 h2,span,p{
     padding-top:7.2%;
+    font-weight: normal;
+}
+h2{
+    font-size: 37px;
+    color: rgb(119, 119, 119);
+}
+p{
+    color: rgb(160, 158, 158);
 }
 /* редактирование навигации(auto не выравнивает по центру) */
 nav{
