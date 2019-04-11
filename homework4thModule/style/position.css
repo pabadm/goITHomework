@@ -1,22 +1,24 @@
-*{
-    text-align: center;
+h1{
+    display: inline;
 }
 header>ul>li{
     display: inline;
 }
-h1{
-    display: inline;
+*{
+    text-align: center;
+}
+.goods>article>span:nth-first-child{
+    display: block;
+}
+.goods>article{
+    display: inline-block;
 }
 .goods{
     margin-right: 10%;
     margin-left: 10%;
 }
-.goods>article{
-    display: inline-block;
-}
-.goods>article>span:nth-first-child{
-    display: block;
-}
+
+
 .goods>article:nth-child(n+2){
     margin-left: 2%;
 }
