@@ -1,0 +1,31 @@
+*{
+    text-align: center;
+}
+header>ul>li{
+    display: inline;
+}
+h1{
+    display: inline;
+}
+.goods{
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.goods>article{
+    display: inline-block;
+}
+.goods>article>span:nth-first-child{
+    display: block;
+}
+.goods>article:nth-child(n+2){
+    margin-left: 2%;
+}
+.goods>article:nth-child(5){
+    margin-left: 0;
+}
+.news>article{
+    display: inline-block;
+}
+.news>article:nth-child(n+3){
+    margin-left: 2%;
+}

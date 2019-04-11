@@ -7,6 +7,11 @@
     src: url("../fonts/PlayfairDisplay.ttf");
   }
 
+  @font-face{
+    font-family: "ubuntuLight";
+    src: url("../fonts/Ubuntu-Light.ttf");
+  }
+
 
 main{
     text-align: center;
@@ -47,7 +52,7 @@ button{
 
 span{
     display: block;
-    font-family: Helvetica, sans-serif;
+    font-family: "ubuntu",Helvetica, sans-serif;
     font-size: 15px;
     color: rgba(180, 179, 179, 0.623);
     text-transform: uppercase;
