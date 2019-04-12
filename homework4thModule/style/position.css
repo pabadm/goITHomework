@@ -17,8 +17,15 @@ header>ul>li{
     margin-right: 10%;
     margin-left: 10%;
 }
-
-
+h2{
+    margin-top: 5%;
+}
+.name , .price{
+    display: inline-block;
+}
+.goods>article{
+    margin-bottom: 2%;
+}
 .goods>article:nth-child(n+2){
     margin-left: 2%;
 }
