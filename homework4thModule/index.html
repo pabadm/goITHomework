@@ -6,99 +6,189 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="./style/style.css">
 </head>
 
 <body>
-    <h1>MART</h1>
-    <header id="header" >
-        <ul>
-            <li><a href="">HOME</a></li>
-            <li><a href="">ABOUT US</a></li>
-            <li><a href="">PAGE</a></li>
-            <li><a href="">SHOP</a></li>
-            <li><a href="">BLOG</a></li>
-            <li><a href="">CONTACT US</a></li>
-        </ul>
+    <header>
+        <h1 class="logo">
+            <span class="logo_text">Mart</span>
+        </h1>
+        <nav>
+            <ul class="nav_list">
+                <li class="nav_list_items">
+                    <a href="#" class="nav_link">Home</a>
+                </li>
+                <li class="nav_list_items">
+                    <a href="#" class="nav_link">About us</a>
+                </li>
+                <li class="nav_list_items">
+                    <a href="#" class="nav_link">Page</a>
+                </li>
+                <li class="nav_list_items">
+                    <a href="#" class="nav_link">Shop</a>
+                </li>
+                <li class="nav_list_items">
+                    <a href="#" class="nav_link">Blog</a>
+                </li>
+                <li class="nav_list_items">
+                    <a href="#" class="nav_link">Contact us</a>
+                </li>
+            </ul>
+        </nav>
     </header>
     <main>
-        <h2>FEATURED PRODUCTS</h2>
         <article class="goods">
-            <article><img src="./imgs/highHeals.png" alt="highHeals">
-                <div>
-                    <span class="name">BLUE TSHIRT</span>
-                    <span class="price">$26</span>
-                </div>
-            </article>
-            <article><img src="./imgs/belt.png" alt="belt">
-                <div>
-                    <span class="name">WOMAN SHIRT</span>
-                    <span class="price">$31</span>
-                </div>
-            </article>
-            <article><img src="./imgs/hat.png" alt="hat">
-                <div>
-                    <span class="name">YELLOW TSHIRT</span>
-                    <span class="price">$21</span>
-                </div>
-            </article>
-            <article><img src="./imgs/backpack.png" alt="backpack">
-                <div>
-                    <span class="name">COOL LINGERIE</span>
-                    <span class="price">$56</span>
-                </div>
-            </article>
-            <article><img src="./imgs/bag.png" alt="bag">
-                <div>
-                    <span class="name">BLUE TSHIRT</span>
-                    <span class="price">$26</span>
-                </div>
-            </article>
-            <article><img src="./imgs/2ndBelt.png" alt="belt">
-                <div>
-                    <span class="name">WOMAN SHIRT</span>
-                    <span class="price">$31</span>
-                </div>
-            </article>
-            <article><img src="./imgs/boots.png" alt="boots">
-                <div>
-                    <span class="name">YELLOW TSHIRT</span>
-                    <span class="price">$21</span>
-                </div>
-            </article>
-            <article><img src="./imgs/sunglasses.png" alt="sunglasses">
-                <div>
-                    <span class="name">COOL LINGERIE</span>
-                    <span class="price">$56</span>
-                </div>
-            </article>
+            <h2 class="volume_1_name">
+                <span class="volume_1_text">Featured products</span>
+            </h2>
+            <div class="goods_cards">
+                <section class="goods_card">
+                    <div class="goods_card_image">
+                        <img src="./imgs/highHeals.png" alt="highHeals">
+                    </div>
+                    <div class="goods_description">
+                        <h4 class="goods_name">Blue tshirt</h4>
+                        <span class="goods_price">$26</span>
+                    </div>
+                </section>
+            </div>
+            <div class="goods_cards">
+                <section class="goods_card">
+                    <div class="goods_card_image">
+                        <img src="./imgs/belt.png" alt="belt">
+                    </div>
+                    <div class="goods_description">
+                        <h4 class="goods_name">Woman shirt</h4>
+                        <span class="goods_price">$31</span>
+                    </div>
+                </section>
+            </div>
+            <div class="goods_cards">
+                <section class="goods_card">
+                    <div class="goods_card_image">
+                        <img src="./imgs/hat.png" alt="hat">
+                    </div>
+                    <div class="goods_description">
+                        <h4 class="goods_name">Yellow tshirt</h4>
+                        <span class="goods_price">$21</span>
+                    </div>
+                </section>
+            </div>
+            <div class="goods_cards">
+                <section class="goods_card">
+                    <div class="goods_card_image">
+                        <img src="./imgs/backpack.png" alt="backpack">
+                    </div>
+                    <div class="goods_description">
+                        <h4 class="goods_name">Cool lingerie</h4>
+                        <span class="goods_price">$56</span>
+                    </div>
+                </section>
+            </div>
+            <div class="goods_cards">
+                <section class="goods_card">
+                    <div class="goods_card_image">
+                        <img src="./imgs/bag.png" alt="bag">
+                    </div>
+                    <div class="goods_description">
+                        <h4 class="goods_name">Blue tshirt</h4>
+                        <span class="goods_price">$26</span>
+                    </div>
+                </section>
+            </div>
+            <div class="goods_cards">
+                <section class="goods_card">
+                    <div class="goods_card_image">
+                        <img src="./imgs/belt2.png" alt="belt">
+                    </div>
+                    <div class="goods_description">
+                        <h4 class="goods_name">Woman shirt</h4>
+                        <span class="goods_price">$31</span>
+                    </div>
+                </section>
+            </div>
+            <div class="goods_cards">
+                <section class="goods_card">
+                    <div class="goods_card_image">
+                        <img src="./imgs/boots.png" alt="boots">
+                    </div>
+                    <div class="goods_description">
+                        <h4 class="goods_name">Yellow tshirt</h4>
+                        <span class="goods_price">$21</span>
+                    </div>
+                </section>
+            </div>
+            <div class="goods_cards">
+                <section class="goods_card">
+                    <div class="goods_card_image">
+                        <img src="./imgs/glasses.png" alt="glasses">
+                    </div>
+                    <div class="goods_description">
+                        <h4 class="goods_name">Cool lingerie</h4>
+                        <span class="goods_price">$56</span>
+                    </div>
+                </section>
+            </div>
         </article>
         <article class="news">
-            <h3>LATEST NEWS</h3>
-            <article>
-                <img src="./imgs/googleMap.png" alt="maps">
-                <h4>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem, hic!</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et dicta ea veniam recusandae, sint
-                    accusamus magni iure voluptatum maxime dolores doloremque aut, neque consectetur aperiam? Ipsam
-                    similique debitis perferendis molestiae.</p>
-                <button><a href="">READ MORE</a></button>
-            </article>
-            <article>
-                <img src="./imgs/women.png" alt="women">
-                <h4>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem, hic!</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et dicta ea veniam recusandae, sint
-                    accusamus magni iure voluptatum maxime dolores doloremque aut, neque consectetur aperiam? Ipsam
-                    similique debitis perferendis molestiae.</p>
-                <button><a href="">READ MORE</a></button>
-            </article>
-            <article>
-                <img src="./imgs/bus.png" alt="bus">
-                <h4>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem, hic!</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et dicta ea veniam recusandae, sint
-                    accusamus magni iure voluptatum maxime dolores doloremque aut, neque consectetur aperiam? Ipsam
-                    similique debitis perferendis molestiae.</p>
-                <button><a href="">READ MORE</a></button>
-            </article>
+            <h2 class="volume_2_name">
+                <span class="volume_2_text">Latest news</span>
+            </h2>
+            <div class="all_news">
+                <section class="news_article">
+                    <div class="news_image">
+                        <img src="./imgs/navigator.png" alt="navigator">
+                    </div>
+                    <h3 class="news_name">
+                        <span class="news_name_text">Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean
+                        </span>
+                    </h3>
+                    <p class="news_story">
+                        Nam nec tellus a odio tincidunt auc. Duis sed odio sit amet nibh vulputate cursus a sit amet
+                        mauris.
+                        Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt
+                    </p>
+                    <button class="read_more">
+                        <a href="#" class="read_more_text">Read more</a>
+                    </button>
+                </section>
+                <section class="news_article">
+                        <div class="news_image">
+                            <img src="./imgs/women.png" alt="women">
+                        </div>
+                        <h3 class="news_name">
+                            <span class="news_name_text">Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean
+                            </span>
+                        </h3>
+                        <p class="news_story">
+                            Nam nec tellus a odio tincidunt auc. Duis sed odio sit amet nibh vulputate cursus a sit amet
+                            mauris.
+                            Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt
+                        </p>
+                        <button class="read_more">
+                            <a href="#" class="read_more_text">Read more</a>
+                        </button>
+                </section>
+                <section class="news_article">
+                        <div class="news_image">
+                            <img src="./imgs/bus.png" alt="bus">
+                        </div>
+                        <h3 class="news_name">
+                            <span class="news_name_text">Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean
+                            </span>
+                        </h3>
+                        <p class="news_story">
+                            Nam nec tellus a odio tincidunt auc. Duis sed odio sit amet nibh vulputate cursus a sit amet
+                            mauris.
+                            Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt
+                        </p>
+                        <button class="read_more">
+                            <a href="#" class="read_more_text">Read more</a>
+                        </button>
+                </section>
+            </div>
+
         </article>
     </main>
 </body>

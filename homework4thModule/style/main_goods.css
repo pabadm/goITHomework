@@ -1,0 +1,78 @@
+/* добавил 30 пикселей ради гибкого маржина */
+main{
+    width: 1140px;
+    margin: auto;
+    margin-top: 100px;
+}
+.goods{
+
+}
+.volume_1_name{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 48px;
+    font-family: 'Roboto', sans-serif;
+    color: #515151;
+}
+.volume_1_name:after{
+    content: '';
+    display: block;
+    width: 165px;
+    height:7px;
+    background-color: #1abc9c;
+    margin: auto;
+    margin-top: 32px;
+}
+.volume_1_text{
+
+}
+.goods_cards{
+    margin-top: 92px;
+    display: inline-block;
+    
+}
+.goods_card{
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 255px;
+    
+    
+}
+.goods_card_image{
+    width: 255px;
+    height: 280px;
+}
+.goods_description{
+    color: #fff;
+    font-weight: 900;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    height: 40px;
+    
+    
+}
+.goods_name{
+    background-color: #323232;
+    display: inline-block;
+    height: 40px;
+    width: 200px;
+    text-align: center;
+    
+}
+/* при обнулении text-size в резете весь текст пропал и не могу сделать vertical-align */
+.goods_price{
+    background-color: #8c8c8c;
+    display: inline-block;
+    height: 40px;
+    width: 50.5px;
+    
+
+}
+.goods_card:hover .goods_name{
+    background-color: #1abc9c;
+}
+.goods_card:hover .goods_price{
+    background-color: #7fd9c7;
+}
