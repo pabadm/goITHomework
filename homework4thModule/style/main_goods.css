@@ -33,11 +33,9 @@ main{
     
 }
 .goods_card{
-    margin-left: 15px;
-    margin-right: 15px;
+    margin: 30px 15px 0 15px;
+    display: inline-block;
     width: 255px;
-    
-    
 }
 .goods_card_image{
     width: 255px;
