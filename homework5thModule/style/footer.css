@@ -1,0 +1,15 @@
+footer{
+    display: block;
+    margin-top: 100px;
+    height: 88px;
+    width: 1600px;
+    background-color: #323232;
+}
+.footer{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
+}
+.designer{
+    color: #46bfa9;
+}

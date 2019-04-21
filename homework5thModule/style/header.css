@@ -1,34 +1,48 @@
 header{
-    margin: auto;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    top: 26.2px;
+    bottom: 32px;
+    transform: translateX(-50%);
     width: 1110px;
+    z-index: 15;
+    
+    height: 37.6px;
 
 }
 .logo{
     display: inline-block;
-    padding-top: 40px;
     width: 40%;
-
-}
-.logo_text{
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     font-size: 30px;
     font-weight: 300; 
     color: #555252;
+
 }
+
 /* не работает почему-то */
-.logo_text::first-letter {
+.logo::first-letter {
     font-weight: 900;
     color: #1abc9c;
 }
-/* так как дать header 40% а nav 60% не срабатывало пришлось выкручиваться */
+
 nav{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    bottom: 50%;
+    transform: translateY(-50%);
     display: inline-block;
-    width: 59.6%;
+    width: 50%;
+    height: 19.2px;
     text-align: right;
+    
 }
 .nav_list{
     list-style-type: none;
+
 }
 .nav_list_items{
     
@@ -39,6 +53,10 @@ nav{
     font-weight: 700;
     text-transform: uppercase;
     margin-left: 30px;
+
+}
+.nav_link{
+    font-size: 14px;
 }
 .nav_link:hover{
     color: #1abc9c;

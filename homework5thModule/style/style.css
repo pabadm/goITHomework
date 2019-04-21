@@ -1,0 +1,11 @@
+@import './reset.css';
+
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto:300,900');
+
+
+@import './fonts.css';
+@import 'header.css';
+@import './main_slider.css';
+@import './main_goods.css';
+@import './footer.css';
