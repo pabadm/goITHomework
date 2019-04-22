@@ -164,17 +164,18 @@
     width: 60%;
     height: 14px;
     color: #ffffff;
+    
 
 }
-#small_button_1{
+.small_button:nth-child(1){
     
     left: 0;
 }
-#small_button_2{
+.small_button:nth-child(2){
     left: 50%;
     right: 50%;
     transform: translateX(-50%);
 }
-#small_button_3{
+.small_button:nth-child(3){
     right: 0;
 }
