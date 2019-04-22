@@ -1,0 +1,76 @@
+main{
+    position: absolute;
+    top: 174.4px;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+    width: 1200px;
+}
+.service{
+
+}
+#additional_text_1,#volume_name_1{
+    display: block;
+    text-align: center;
+
+}
+#additional_text_1{
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 400;
+    font-size: 24px;    
+    color: #333333;
+}
+#volume_name_1{
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #333333;
+    margin-top: 14.4px;
+}
+#volume_name_1::after{
+    content: '';
+    display: block;
+    background-color: #f38181;
+    height: 3px;
+    width: 60px;
+    /* не хочет двигаться вниз */
+    margin-top: 39px;
+    margin: auto;
+    
+}
+.service_cards{
+    margin-top: 99px;
+    height: 250px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+.service_card{
+    width: 360px;
+}
+.service_card_image{
+    position: absolute;
+    left: 30px;
+}
+.service_card_description{
+    width: 270px;
+    position: absolute;
+    left: 90px;
+}
+.service_card_name{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #333333;
+}
+.service_card_text{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #999999;
+    margin-top: 20px;
+}

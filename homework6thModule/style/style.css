@@ -1,0 +1,11 @@
+@import './reset.css';
+
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:400,700|Roboto:300i,400');
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Kaushan Script', cursive; */
+
+@import './header.css';
+@import './main_service.css';
+@import './main_team.css';
+@import './footer.css';
