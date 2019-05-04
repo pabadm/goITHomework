@@ -20,9 +20,7 @@
     margin-top: 32px;
     margin-bottom: 80px;
 }
-.volume_2_text{
 
-}
 .all_news{
     
 }
@@ -67,18 +65,17 @@
     width: 160px;   
     height: 50px;
     display: block;
-    margin: auto;
+    margin-right: auto;
     margin-top: 20px;
     margin-bottom: 10px;
     border: 1px solid #4ec6ab;
     border-radius: 3px;
 
     background-color: #4ec6ab;
-
-}
-.read_more_text{
     font-weight: 300;
     font-size: 16px;
     
     color: #f6fbfa;
+
 }
+

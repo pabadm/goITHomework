@@ -44,11 +44,16 @@ main{
     font-weight: 100;
     font-size: 100px;
     color: #ffffff;
+    line-height: 104px;
+    vertical-align: middle; 
     
 }
 
 .arrow_left{
         left: 245px;
+        /* line-height: 100%;
+        vertical-align: middle; */
+
 }
 .arrow_right{
     right: 245px;
