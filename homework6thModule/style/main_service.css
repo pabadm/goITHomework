@@ -45,27 +45,27 @@ main{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    align-items: flex-start;
-    align-content: flex-start;
+
 }
 .service_card{
     width: 360px;
 }
 .service_card_image{
-    position: absolute;
-    left: 30px;
+    display: inline-block;
+    margin-left: 30px;
 }
 .service_card_description{
-    width: 270px;
-    position: absolute;
-    left: 90px;
+    display: inline-block;
+    width: 270px; 
+    margin-left: 30px;
+    margin-top: 0;
 }
 .service_card_name{
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 14px;
     text-transform: uppercase;
-    color: #333333;
+    color: #333;
 }
 .service_card_text{
     font-family: 'Roboto', sans-serif;
