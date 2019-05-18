@@ -1,7 +1,6 @@
-.team{
+.team {}
 
-}
-#additional_text_2{
+#additional_text_2 {
     font-family: 'Kaushan Script', cursive;
     font-weight: 400;
     font-size: 24px;
@@ -9,7 +8,8 @@
     text-align: center;
     margin-bottom: 20px;
 }
-#volume_name_2{
+
+#volume_name_2 {
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
@@ -17,7 +17,8 @@
     text-align: center;
     color: #333333;
 }
-#volume_name_2::after{
+
+#volume_name_2::after {
     content: '';
     display: block;
     width: 60px;
@@ -27,39 +28,48 @@
     margin-top: 40px;
     margin-bottom: 45px;
 }
-.story{
+
+.story {
     width: 980px;
     margin: auto;
     margin-bottom: 95px;
 }
-.story_text{
+
+.story_text {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 15px;
     text-align: center;
     color: #999999;
 }
-.member_cards{
-    
-}
-.member_card{
+
+.member_cards {}
+
+.member_card {
     width: 380px;
     height: 550px;
 }
-.member_card_image{
+
+.member_card_image {
     height: 470px;
     width: 380px;
     margin-bottom: 30px;
+    /* чтобы выдвинуть картинку */
+    position: relative;
 }
-.member_card_image_file{
+
+.member_card_image_file {
     height: 470px;
     width: 380px;
+    position: absolute;
 }
-.member_card_description{
+
+.member_card_description {
     width: 380px;
 }
-.member_name{
-    
+
+.member_name {
+
     display: block;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
@@ -69,10 +79,11 @@
     margin: auto;
     margin-bottom: 15px;
     text-align: center;
-    
-    
+
+
 }
-.member_post{
+
+.member_post {
     text-align: center;
     display: block;
     font-family: 'Roboto', sans-serif;
@@ -81,6 +92,80 @@
     font-size: 15px;
     color: #a6a6a6;
 }
-.member_card:hover .member_card_image{
-    transform: translate(-10,-10);
+
+.member_card:hover .member_card_image_file {
+    /* почему-то анимация срабатывает резко */
+    transition: right 200ms linear 30s;
+    right: 10px;
+    transition: bottom 200ms linear 30s;
+    bottom: 10px;
+    /* это не срабатывает */
+    /*transition: transform 200ms linear 30s;
+    transform: translate(10px,-10px); */
+    position: relative;
+    
 }
+.card_animation{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.blur {
+    background-image: linear-gradient(#fce38a00 0%#f3818100 100%);
+    width: 380px;
+    height: 470px;
+    z-index: 2;
+  }
+
+.member_card:hover .card_animation{
+    transition: transform 200ms linear;
+    transform: translate(-10px,-10px);
+}
+.member_card:hover .blur {
+    transition: background-image 200ms linear;
+    background-image: linear-gradient(#fbe287e6 0%, #f38181bf 100%);
+  } 
+  .share{
+    position: absolute;
+    width: 223px;
+    height: 55px;
+    top: 50%;
+    bottom: 50%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+}
+.share_img{
+    width: 55px;
+    height: 55px;
+    display: inline-block;
+    background-color: #fce38a;
+    border-right: 1px solid #f9bd87;
+    position: relative; 
+}
+.share_img_file{
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%,-50%);
+    width: 25px;
+    height: 25px;
+    
+}
+.share_img:nth-child(1) .share_img_file{
+    width: 15px;
+}
+.share_img:nth-last-child(){
+    border-right: 0;
+}
+.member_card:hover .share{
+    z-index: 2;
+}
+/* .share_link:hoveer .share_img{
+    background-color: #95e1d3;
+    border-color: #b9bcb3;
+} */

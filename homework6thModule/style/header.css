@@ -44,10 +44,12 @@ nav{
 }
 .nav_list_link:hover{
     color: #95e1d3;
+    /* почему-то анимация изменения цвета текста срабатывает резко */
     transition: color 200ms linear;
     color: #f6a1a1;
     padding-bottom: 12px;
     border-bottom: 3px solid #00000000;
+    /* эта работает отлично */
     transition: border-bottom 200ms linear;
     border-bottom: 3px solid #f38181;
 }
