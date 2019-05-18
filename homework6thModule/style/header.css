@@ -1,53 +1,53 @@
+.wrapper{
+
+}
 header{
-    width: 1200px;
     position: absolute;
-    right: 50%;
+    top: 30px;
     left: 50%;
-    top: 29px;
+    right: 50%;
     transform: translateX(-50%);
+    width: 1200px;
     display: flex;
+    flex-flow: row wrap;
     justify-content: space-between;
+    align-items: flex-start;
 }
 .logo{
-    display: inline-block;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    font-size: 30px;
+    font-size: 700;
     color: #95e1d3;
 }
 nav{
-    display: inline-block;
-
+    width: 490px;
+    /* навигация на одном уровне с лого */
+    height: 100%;
+    margin-top: auto;
 
 }
 .nav_list{
+    width: 490px;
     display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    justify-content: space-between;
 }
-.nav_list_item{
-    
-    margin-left: 55px;
-    height: 25px;
-    /* пришлось дать высоту(after  выталкивал элемент) */
-    
+.nav_list_items{
     
 }
-
 .nav_list_link{
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 14px;
-    color: #bdece4;
+    color: #95e1d3;
 }
 .nav_list_link:hover{
-    transition: color 200ms;
-    color: #f38181;
-    border-bottom: 3px solid #00000000;
+    color: #95e1d3;
+    transition: color 200ms linear;
+    color: #f6a1a1;
     padding-bottom: 12px;
-    transition: border-color 200ms;
-    border-color: #f38181;
-}
-/* не могу сделать переход на цвет, этот псевдоэлемент выталкивает навигацию */
-.nav_list_item:hover{
-
+    border-bottom: 3px solid #00000000;
+    transition: border-bottom 200ms linear;
+    border-bottom: 3px solid #f38181;
 }

@@ -1,0 +1,86 @@
+.team{
+
+}
+#additional_text_2{
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: #333333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#volume_name_2{
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    color: #333333;
+}
+#volume_name_2::after{
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    margin: auto;
+    background-color: #f38181;
+    margin-top: 40px;
+    margin-bottom: 45px;
+}
+.story{
+    width: 980px;
+    margin: auto;
+    margin-bottom: 95px;
+}
+.story_text{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    color: #999999;
+}
+.member_cards{
+    
+}
+.member_card{
+    width: 380px;
+    height: 550px;
+}
+.member_card_image{
+    height: 470px;
+    width: 380px;
+    margin-bottom: 30px;
+}
+.member_card_image_file{
+    height: 470px;
+    width: 380px;
+}
+.member_card_description{
+    width: 380px;
+}
+.member_name{
+    
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #404040;
+    text-transform: uppercase;
+    margin: auto;
+    margin-bottom: 15px;
+    text-align: center;
+    
+    
+}
+.member_post{
+    text-align: center;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 15px;
+    color: #a6a6a6;
+}
+.member_card:hover .member_card_image{
+    transform: translate(-10,-10);
+}
