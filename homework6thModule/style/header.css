@@ -2,11 +2,9 @@
 
 }
 header{
-    position: absolute;
-    top: 30px;
-    left: 50%;
-    right: 50%;
-    transform: translateX(-50%);
+    padding-top: 30px;
+    margin: auto;
+    margin-bottom: 125px;
     width: 1200px;
     display: flex;
     flex-flow: row wrap;
@@ -14,9 +12,15 @@ header{
     align-items: flex-start;
 }
 .logo{
+    width:  90px;
+    height: 36px;
+
+}
+.logo_link{
     font-family: 'Montserrat', sans-serif;
-    font-size: 700;
+    font-weight: 700;
     color: #95e1d3;
+    font-size: 30px;
 }
 nav{
     width: 490px;
@@ -43,13 +47,8 @@ nav{
     color: #95e1d3;
 }
 .nav_list_link:hover{
-    color: #95e1d3;
-    /* почему-то анимация изменения цвета текста срабатывает резко */
-    transition: color 200ms linear;
+    transition: 200ms linear;
     color: #f6a1a1;
     padding-bottom: 12px;
-    border-bottom: 3px solid #00000000;
-    /* эта работает отлично */
-    transition: border-bottom 200ms linear;
     border-bottom: 3px solid #f38181;
 }

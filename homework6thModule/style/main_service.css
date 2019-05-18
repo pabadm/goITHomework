@@ -1,11 +1,8 @@
 main{
     
     width: 1200px;
-    position: absolute;
-    top: 175px;
-    left: 50%;
-    right: 50%;
-    transform: translateX(-50%);
+    margin: auto;
+    margin-bottom: 85px;
 }
 #additional_text_1{
     font-family: 'Kaushan Script', cursive;
@@ -51,9 +48,9 @@ main{
     width: 30px;
     height: 30px;
     display: inline-block;
-    margin-bottom: auto;
     margin-right: 20px;
     margin-left: 20px;
+    vertical-align: top;
     
 }
 .service_card_image_file{
