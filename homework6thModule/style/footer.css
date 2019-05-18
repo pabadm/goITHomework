@@ -31,9 +31,8 @@ footer{
 .subscribe_input{
     width: 230px;
     height: 40px;
-    border-left: 1px solid #e7e7e7;
-    border-top: 1px solid #e7e7e7;
-    border-bottom: 1px solid #e7e7e7;
+    border: 1px solid #e7e7e7;
+    border-right: 0;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 15px;
