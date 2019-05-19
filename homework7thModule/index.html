@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <header>
+
+            <h1 class="logo"><a href="#" class="logo__link">Golden</a></h1>
+
+            <nav>
+                <ul class="nav__list">
+                    <li class="nav__list__item">
+                        <a href="#" class="nav__list__item__link">home</a>
+                    </li>
+                    <li class="nav__list__item">
+                        <a href="#" class="nav__list__item__link">services</a>
+                    </li>
+                    <li class="nav__list__item">
+                        <a href="#" class="nav__list__item__link">portfolio</a>
+                    </li>
+                    <li class="nav__list__item">
+                        <a href="#" class="nav__list__item__link">about</a>
+                    </li>
+                    <li class="nav__list__item">
+                        <a href="#" class="nav__list__item__link">contact</a>
+                    </li>
+                </ul>
+            </nav>
+
+        </header>
+        <main>
+
+            <section class="service">
+
+                <h2 class="service__name">services</h2>
+
+                <span class="service__comment">Proin iaculis purus consequat sem cure.</span>
+
+                <div class="service__cards">
+
+                    <div class="service__card">
+                        <div class="service__card__image">
+                            <img src="./style/img/Basket.png" alt="main" class="service__card__image__main">
+                            <img src="./style/img/Circle.png" alt="circle" class="service__card__image__circle">
+                        </div>
+                        <div class="service__card__description">
+                            <h4 class="service__card__description__name">E-Commerce</h4>
+                            <p class="service__card__description__text">
+                                Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit
+                                aenean rhoncus posuere odio in tincidunt.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="service__card">
+                        <div class="service__card__image">
+                            <img src="./style/img/Laptop.png" alt="main" class="service__card__image__main">
+                            <img src="./style/img/Circle.png" alt="circle" class="service__card__image__circle">
+                        </div>
+                        <div class="service__card__description">
+                            <h4 class="service__card__description__name">Responsive Web</h4>
+                            <p class="service__card__description__text">
+                                Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit
+                                aenean rhoncus posuere odio in tincidunt.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="service__card">
+                        <div class="service__card__image">
+                            <img src="./style/img/Locked.png" alt="main" class="service__card__image__main">
+                            <img src="./style/img/Circle.png" alt="circle" class="service__card__image__circle">
+                        </div>
+                        <div class="service__card__description">
+                            <h4 class="service__card__description__name">Web Security</h4>
+                            <p class="service__card__description__text">
+                                Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit
+                                aenean rhoncus posuere odio in tincidunt.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="form">
+
+                <div class="form__background">
+                    <div class="form__background__color"></div>
+                    <img src="./style/img/Map.png" alt="map" class="form__background__image">
+                </div>
+
+                <h4 class="form__name">contact us</h4>
+                <span class="form__comment">Proin iaculis purus consequat sem cure.</span>
+
+                <div class="form__main">
+                <!-- не знаю как сделать обязательным для ввода -->
+                    <div class="form__main__personal">
+                        <input type="text" name="name" id="form__main__personal__name" class="form__main__input" placeholder="YOUR NAME *" >
+                        <input type="email" name="email" id="form__main__personal__email" class="form__main__input" placeholder="YOUR E-MAIL *"
+                        >
+                        <input type="text" name="subject" id="form__main__personal__subject" class="form__main__input" placeholder="SUBJECT">
+                    </div>
+
+                    <div class="form__main__message">
+                        <!-- по неведомой причине - ничего нельзя написать (пытался вытаскивать z-index но помогло только с предыдущим блоком) -->
+                        <textarea type="text" name="message" id="form__main__message__text" class="form__main__input" placeholder="YOUR MESSAGE *" ></textarea>
+                    </div>
+                    
+                </div>
+                
+                <div class="form__send">
+                <input type="submit" id="form__send__button" value="SEND MESSAGE" >
+                 </div>
+
+            </section>
+
+        </main>
+
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,125 @@
+/* редактирование фона */
+.form{
+    width: 1400px;
+    height: 675px;
+    position: relative;
+    margin: auto;  
+}
+.form__background{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    
+}
+.form__background__color{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #222222;
+    z-index: -2;
+}
+.form__background__image{
+    position: absolute;
+    z-index: -1;
+    top: 110px;
+    right: 0;
+
+}
+/* редактирование текста перед формой */
+.form__name{
+    text-transform: uppercase;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #ffffff;
+    text-align: center;
+    /* margin не работал из-за position */
+    padding-top: 110px;
+    margin-bottom: 20px;
+}
+.form__comment{
+    display: block;
+    font-family: 'Roboto Slab','Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: italic;
+    color: #777777;
+    text-align: center;
+    margin-bottom: 75px;
+}
+
+/* редактирование формы */
+.form__main{
+    margin: auto;
+    width: 940px;
+    height: 210px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.form__main__personal{
+    width: 455px;
+    height: 210px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+}
+.form__main__input{
+    border: 1px solid #cccccc;
+    border-radius: 2px;
+    color: #222222;
+    font-family: 'Montserrat',serif;
+    font-weight: 700;
+    font-size: 14px;
+    
+    z-index: 5;
+    padding-left: 20px;
+}
+/* не до конца понимаю как работает */
+/* .form__main__input:valid{
+    border-color: rgb(0, 255, 0);
+} */
+#form__main__personal__name{
+    width: 100%;
+    height: 52px;
+}
+#form__main__personal__email{
+    width: 100%;
+    height: 52px;
+}
+#form__main__personal__subject{
+    width: 100%;
+    height: 52px;
+}
+.form__main__message{
+    width: 455px;
+    height: 100%;
+}
+#form__main__message__text{
+    width: 100%;
+    height: 100%;
+    padding-top: 15px;
+    
+}
+.form__send{
+    z-index: 5;
+    width: 240px;
+    height: 65px;
+    margin: auto;
+
+}
+#form__send__button{
+    width: 100%;
+    height: 100%;
+    border: 0;
+    border-radius: 2px;
+    font-family: "Montserrat",sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #ffffff;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #fed136;
+}
