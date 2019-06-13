@@ -38,14 +38,15 @@ main{
     background-color: rgb(26, 188, 156, 0.651);
     position: absolute;
     top: 230px;
-    width: 104px;
-    height: 104px;
+    width: 114px;
+    height: 114px;
     z-index: 3;  
     font-weight: 100;
     font-size: 100px;
     color: #ffffff;
     line-height: 104px;
     vertical-align: middle; 
+    padding-bottom: 114px;
     
 }
 

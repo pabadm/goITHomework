@@ -1,0 +1,126 @@
+main{
+    width: 100%;
+    
+}
+.section__title{
+    text-align: center;
+    font-family: 'Montserrat',serif;
+    font-size: 1.375rem;
+    font-weight: 700;
+    color: #333333;
+    padding: 0 0.5rem 0 0.5rem ;
+    margin-bottom: 1.25rem;
+}
+.partners{
+    width: 100%;
+}
+.partner{
+    width: 75%;
+    margin: auto;
+    margin-bottom: 1.75rem;
+}
+.partner__picture{
+    display: block;
+    width: 60%;
+    height: auto;
+    margin: auto;
+    position: relative;
+    margin-bottom: 1.25rem;
+}
+/* сделал img , размеры всегда одинаковые */
+.partner__picture__img{
+    display: block;
+    width: 60%;
+    height: auto;
+    margin: auto;
+}
+/* не работает */
+/* .partner__picture__icon{
+
+}
+.parter__picture__icon__img{
+
+} */
+.partner__text{
+
+}
+.partner__text__name{
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 700;
+    font-size: 0.875rem;
+    color: #333333;
+    text-align: center;
+    margin-bottom: 1.125rem;
+}
+.partner__text__description{
+    white-space: pre-wrap;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 0.875rem;
+    color: #8f8f8f;
+    text-align: center;
+}
+.morePartners{
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 0.875rem;
+    color: #ff4e50;
+    text-align: center;
+    padding: 0.75rem 4.5rem 0.75rem 4.5rem;
+    border: 0.125rem solid #ff4e50;
+    margin: auto;
+    border-radius: 100rem;
+    margin-bottom: 3.5rem;
+    background-color: #fff;
+}
+@media (min-width: 768px){
+    .section__title{
+        margin-bottom: 2.375rem;
+    }
+    .partners{
+        margin: auto;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        width: 60%;
+        
+    }
+    .partner{
+        margin-top: 0;
+        width: 40%;
+    }
+    /* не работает */
+    /* .partner__picture__icon{
+    
+    }
+    .parter__picture__icon__img{
+    
+    } */
+
+}
+@media (min-width: 768px){
+    .section__title{
+        margin-bottom: 2.375rem;
+    }
+    .partners{
+        margin: auto;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        width: 60%;
+        
+    }
+    .partner{
+        margin-top: 0;
+        width: 40%;
+    }
+}
+@media (min-width: 1440px){
+    .partners{
+        width: 70%;
+    }
+    .partner{
+        width: 25%;
+    }
+}

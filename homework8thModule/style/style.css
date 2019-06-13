@@ -1,0 +1,9 @@
+@import './reset.css';
+
+@import './fonts.css';
+
+@import './header.css';
+@import './promo.css';
+@import './partners.css';
+
+/* P.S. когда я прописал импорт хедера и шрифтов ниже - они не задействовались */

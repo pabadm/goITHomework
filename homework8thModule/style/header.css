@@ -1,0 +1,70 @@
+/* мог что-то забыть в promo и header т.к сначала делал через html{font-size: 0;} */
+header{
+    position: absolute;
+    width: 100%;
+    z-index: 50;
+    top: 1.25rem;
+    display: flex;
+    flex-flow: column-reverse wrap;
+    align-items: center;
+    justify-content: space-between;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+    
+}
+.logo{
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: #fff;
+    
+}
+.registration{
+    width: 12.9rem;
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-bottom: 7rem;
+}
+.registration__login , .registration__signup{
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 700;
+    font-size: 0.875rem;
+    color: #fff;
+    text-align: center;
+    border: 0.125rem solid #00000000;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    
+    /* none и 0 не срабатывало */
+    background-color: #00000000;
+}
+.registration__login:hover , .registration__signup:hover{
+    transition: 550ms;
+    border-color: #fff;
+    border-radius: 100rem;
+    
+}
+.registration__login{
+
+}
+.registration__signup{
+
+}
+@media (min-width: 768px){
+    header{
+        flex-direction: row;
+        width: 85%;
+        top: 2.125rem;
+    }
+    .registration{
+        margin: 0;
+    }
+
+}
+@media (min-width: 1440px){
+    header{    
+        width: 65%;
+    }
+}
