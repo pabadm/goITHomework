@@ -1,0 +1,38 @@
+/* картинка никогда не респонсив
+не знаю почему  */
+.banner{
+    
+    width: 100%;
+}
+.banner__picture{
+    display: block;
+    margin: auto;
+    margin-bottom: auto;
+    
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.banner__img{
+    display: block;
+    margin: auto;
+    margin-bottom: auto;
+    
+    width: 100%;
+    height: auto;
+}
+.banner__blur{
+    /* никак не могу сделать градиент для блюра(он просто не появляется нигде(в девтулсе он внизу без высоты) */
+    /* background-image: linear-gradient( top, rgb(252,227,138) 50%, rgb(243,129,129) 50%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(252,227,138) 0%, rgb(243,129,129) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(252,227,138) 0%, rgb(243,129,129) 100%);
+    position: absolute;
+    left: 0px;
+    top: 0px; */
+    /* width: 1920px;
+    height: 1000px;
+    z-index: 200;
+    background-color: lightgreen;
+    margin-bottom: auto; */
+
+}
